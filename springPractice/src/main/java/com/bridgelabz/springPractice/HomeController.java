@@ -31,7 +31,7 @@ private MyBean myBean;
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = "/pooja", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		System.out.println("MyBean hashcode="+myBean.hashCode());
 		System.out.println("MyAnnotatedBean hashcode="+myAnnotatedBean.hashCode());
